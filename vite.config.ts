@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   // IMPORTANT: Update this base path to match your GitHub repository name
-  // Example: If your repo is "h2op-landing", set base: '/h2op-landing/'
+/H2opv1/
   // If deploying to username.github.io (no repo path), use base: '/'
   base: process.env.GITHUB_ACTIONS ? '/' : '/',
   
