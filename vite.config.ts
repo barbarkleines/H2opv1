@@ -7,7 +7,7 @@ export default defineConfig({
   // IMPORTANT: Update this base path to match your GitHub repository name
 //
   // If deploying to username.github.io (no repo path), use base: '/'
-  base:/H2opv1/
+ /H2opv1/
   
   plugins: [
     // The React and Tailwind plugins are both required for Make, even if
