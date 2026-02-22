@@ -1,20 +1,17 @@
 import { defineConfig } from 'vite'
 import path from 'path'
-import tailwindcss from '@tailwindcss/vite'
 import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   // IMPORTANT: Update this base path to match your GitHub repository name
-//
   // If deploying to username.github.io (no repo path), use base: '/'
- export default defineConfig({
-  base: /H2opv1/
-  
+  base: '/H2opv1/',
+
   plugins: [
-    // The React and Tailwind plugins are both required for Make, even if
-    // Tailwind is not being actively used – do not remove them
     react(),
-    tailwindcss(),
+    tailwindcss()
+  
   ],
   resolve: {
     alias: {
